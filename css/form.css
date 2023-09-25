@@ -1,0 +1,165 @@
+body {
+    /* height: 10000px; */
+}
+
+.banner_bg.breadcrumb_title {
+    border: 1px solid red;
+
+
+}
+
+ul.breadcrumb_title_list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.breadcrumb_title_list li {
+
+    display: inline-block;
+    color: #8ECFD2;
+    font-size: 24px;
+}
+
+.breadcrumb_title_list>li a {
+    text-decoration: none;
+    color: #8ECFD2;
+    /* border: 1px solid red; */
+    padding: 0 8px;
+}
+
+.breadcrumb_title_list>li:not(:last-child)::after {
+    content: '/';
+    display: inline-block;
+
+
+}
+
+.breadcrumb_title_list>li a:hover {
+    color: #7C7C7C;
+}
+
+/* <!-- ================================================各自分頁的開始======================================== --> */
+.to-do_rule_step {
+    color: #8ECFD2;
+    text-align: center;
+}
+
+.to-do_rule_step p {
+    /* border: 1px solid red; */
+
+}
+
+.to-do_rule_step a {
+    text-decoration: none;
+    color: #3F6395
+}
+
+.to-do_rule_step a:hover {
+    color: #7C7C7C;
+}
+
+/* <!-- ============================================表單============================================ --> */
+#day_selector {
+    appearance: none;
+    outline: none;
+    background-color: none;
+    border: 1px solid#919191;
+    border-radius: 8px;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    color: #919191;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+
+    background-image: url(../images/triangle.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right 8px center;
+    /* 水平方向距離右側 8px；垂直方向 center */
+
+}
+
+/* 
+無法成功插入三角形
+#day_selector::after {
+    content: "t";
+    display: inline-block;
+    border: 5px solid red;
+} */
+
+/* <!-- ================================================表單======================================== --> */
+legend {
+    color: #8ECFD2;
+    text-align: center;
+    font-size: 40px;
+    /* font-family:  */
+}
+
+#myForm_create {
+    width: 1058px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.trip_news,
+.day1_create_breakfast,
+.day1_create_lunch,
+.day1_create_dinner,
+.day1_create_living,
+.day1_create_list,
+.day2_create_breakfast,
+.day2_create_lunch,
+.day2_create_dinner,
+.day2_create_living,
+.day2_create_list,
+.button_create1,
+.button_create2 {
+    margin: 20px 50px;
+
+}
+
+#trip_news_title {
+    width: 400px;
+}
+
+.button_create1,
+.button_create2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .myForm_create_day1 input {
+    margin: 0 8px;
+    padding: 4px 8px;
+
+} */
+.trip_news input,
+.day1_create_breakfast input,
+.day1_create_lunch input,
+.day1_create_dinner input,
+.day1_create_living input,
+.day1_create_list input,
+.myForm_create_day2 input,
+.day2_create_breakfast input,
+.day2_create_lunch input,
+.day2_create_dinner input,
+.day2_create_list input,
+.button_create1 button,
+.button_create2 button,
+.day1_create_list textarea,
+.day2_create_list textarea {
+    margin: 0 8px;
+    padding: 4px 8px;
+}
+
+.day1_create_list textarea,
+.day2_create_list textarea {
+    width: 987px;
+    height: 170px;
+}
