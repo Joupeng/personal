@@ -1,4 +1,6 @@
 .banner_bg {
+
+
     background-image: url("./images/banner 1.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -30,6 +32,7 @@ input#inputbox {
     font-size: 25px;
     border: 0;
     color: #919191;
+
 
     background-image: url("./images/spot/search.png");
     background-repeat: no-repeat;
