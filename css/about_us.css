@@ -14,16 +14,17 @@ ul.breadcrumb_title_list {
 
 
 
-.breadcrumb_title_list>li {
+.breadcrumb_title_list>li.hover_not {
 
     display: inline-block;
-    color: #8ECFD2;
+    color: #7C7C7C;
     font-size: 24px;
 }
 
 .breadcrumb_title_list>li a {
     text-decoration: none;
     color: #8ECFD2;
+    font-size: 24px;
     /* border: 1px solid red; */
     padding: 0 8px;
 }

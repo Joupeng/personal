@@ -2,10 +2,9 @@ body {
     /* height: 10000px; */
 }
 
+/* ===================================================================麵包屑============================================================================ */
 .banner_bg.breadcrumb_title {
-    border: 1px solid red;
-
-
+    /* border: 1px solid red; */
 }
 
 ul.breadcrumb_title_list {
@@ -15,10 +14,10 @@ ul.breadcrumb_title_list {
     margin-right: 50px;
 }
 
-.breadcrumb_title_list li {
+.breadcrumb_title_list li.hover_not {
 
     display: inline-block;
-    color: #8ECFD2;
+    color: #7C7C7C;
     font-size: 24px;
 }
 
@@ -27,6 +26,7 @@ ul.breadcrumb_title_list {
     color: #8ECFD2;
     /* border: 1px solid red; */
     padding: 0 8px;
+    font-size: 24px;
 }
 
 .breadcrumb_title_list>li:not(:last-child)::after {

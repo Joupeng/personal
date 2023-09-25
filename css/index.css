@@ -54,46 +54,6 @@ div.font_box {
 }
 
 
-/* ====================================================================麵包屑============================================================== */
-
-
-.banner_bg.breadcrumb_title {
-    /* border: 1px solid red; */
-}
-
-ul.breadcrumb_title_list {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-
-
-
-.breadcrumb_title_list>li {
-
-    display: inline-block;
-    color: #8ECFD2;
-    font-size: 16px;
-}
-
-.breadcrumb_title_list>li a {
-    text-decoration: none;
-    color: #8ECFD2;
-    /* border: 1px solid red; */
-    padding: 0 8px;
-}
-
-.breadcrumb_title_list>li:not(:last-child)::after {
-    content: '/';
-    display: inline-block;
-
-
-}
-
-.breadcrumb_title_list>li a:hover {
-    color: #7C7C7C;
-}
 
 /* =============================================================影片內容1================================================================== */
 .video_mountain {

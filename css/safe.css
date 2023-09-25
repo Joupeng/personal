@@ -10,10 +10,10 @@ ul.breadcrumb_title_list {
 }
 
 
-.breadcrumb_title_list>li {
+.breadcrumb_title_list>li.hover_not {
 
     display: inline-block;
-    color: #8ECFD2;
+    color: #7C7C7C;
     font-size: 24px;
 }
 
@@ -22,6 +22,7 @@ ul.breadcrumb_title_list {
     color: #8ECFD2;
     /* border: 1px solid red; */
     padding: 0 8px;
+    font-size: 24px;
 }
 
 .breadcrumb_title_list>li:not(:last-child)::after {
@@ -163,11 +164,24 @@ ul.breadcrumb_title_list {
 
 }
 
+.hospitial_box ul>li {
+    border: 1px solid orange;
+}
+
+li.address_icon p {
+    border: 1px solid blue;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .departmant_box ul>li.address_icon::before {
     content: " ";
     display: inline-block;
     width: 40px;
     height: 40px;
+    border: 1px solid red;
+    vertical-align: middle;
 
     background-image: url("/images/safe/address.png");
     background-size: 40px;
