@@ -44,12 +44,18 @@ ul.breadcrumb_title_list {
 .to-do_rule_step {
     color: #8ECFD2;
     text-align: center;
+
+
+
 }
 
 .to-do_rule_step p {
     /* border: 1px solid red; */
 
+
 }
+
+
 
 .to-do_rule_step a {
     text-decoration: none;

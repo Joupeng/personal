@@ -45,6 +45,8 @@ ul.breadcrumb_title_list {
 .to-do_rule_step {
     color: #8ECFD2;
     text-align: center;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .to-do_rule_step p {
