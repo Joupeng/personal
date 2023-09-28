@@ -246,7 +246,7 @@ div.font_box {
 .note_list {
     /* border: 1px solid red; */
     width: 200px;
-    margin: auto;
+    margin: 0 auto;
 
 }
 
