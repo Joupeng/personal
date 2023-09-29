@@ -15,14 +15,16 @@
 
 /* ===========================================================搜尋bar=========================================== */
 .search_bar {
-    /* 無法定位
-    justify-content: center;
-    align-items: center; */
     /* border: 5px solid green; */
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.search_bar_set {
+    display: flex;
+    flex-direction: row;
 }
 
 input#inputbox {
@@ -37,8 +39,9 @@ input#inputbox {
     background-image: url("../../images/spot/search.png");
     background-repeat: no-repeat;
     background-size: 60px;
-    background-position: left 8px center;
-    padding-left: 80px;
+    background-position: right 20px center;
+    padding-left: 20px;
+    /* padding-left: 80px; */
     /* 推開字 */
 }
 

@@ -52,6 +52,10 @@ ul.breadcrumb_title_list {
 }
 
 /* ====================================================標題開始======================================================= */
+.point_vendor_title {
+    min-width: 1000px;
+}
+
 .point_vendor_title img {
     width: 100px;
     height: 100px;
@@ -62,7 +66,8 @@ ul.breadcrumb_title_list {
 
 .linear_box {
     position: relative;
-
+    width: 1000px;
+    margin: 0 auto;
 
 }
 
@@ -82,14 +87,15 @@ ul.breadcrumb_title_list {
 }
 
 .contaniner_photo {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     margin-top: 60px;
 
     height: 1400px;
     padding: 20px;
-    min-width: 1400px;
+    /* min-width: 1400px; */
+    width: 100%;
 }
 
 
