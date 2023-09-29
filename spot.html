@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/common/banner2.css">
     <link rel="stylesheet" href="./css/spot.css">
 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +22,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+HK:wght@900&family=Noto+Sans+TC:wght@300&display=swap"
         rel="stylesheet">
+
 
 </head>
 
@@ -89,15 +93,46 @@
     </div>
     <!-- 補動畫
     <img src="/images/animation.png" alt="無法顯示"> -->
+
     <div class="mind_spot_title">
         <h3>職場失意 </h3>
         <p>也許上司看不到你的閃光點、同事與你有太多不同，疲憊的工作環境，讓你越來越不認識自己，可是你的生活不是只有工作，也許可以去別的地方看一看，才會發現世界很大，有很多可能性。</p>
     </div>
     <div class="spot_card_choose">
         <ul>
-            <li><img src="./images/spot/spot_1.png" alt="無法顯示"></li>
-            <li><img src="./images/spot/spot_2.png" alt="無法顯示"></li>
-            <li><img src="./images/spot/spot_3.png" alt="無法顯示"></li>
+            <li>
+                <!-- ===============================================第一張牌 ===============================================================================-->
+                <div id="card">
+                    <div class="front">
+                        <img src="./images/spot/spot_1.png" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <!-- ===============================================第二張牌 ===============================================================================-->
+                <div id="card1">
+                    <div class="front">
+                        <img src="./images/spot/spot_2.png" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <!-- ===============================================第三張牌 ===============================================================================-->
+                <div id="card2">
+                    <div class="front">
+                        <img src="./images/spot/spot_3.png" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="">
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
     <div class="mind_spot_title">
@@ -106,9 +141,39 @@
     </div>
     <div class="spot_card_choose">
         <ul>
-            <li><img src="./images/spot/spot_4.png" alt="無法顯示"></li>
-            <li><img src="./images/spot/spot_5.png" alt="無法顯示"></li>
-            <li><img src="./images/spot/spot_6.png" alt="無法顯示"></li>
+            <li>
+                <!-- ===============================================第一張牌 ===============================================================================-->
+                <div id="card3">
+                    <div class="front">
+                        <img src="./images/spot/spot_4.svg" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <!-- ===============================================第二張牌 ===============================================================================-->
+                <div id="card4">
+                    <div class="front">
+                        <img src="./images/spot/spot_5.png" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="無法顯示">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <!-- ===============================================第三張牌 ===============================================================================-->
+                <div id="card5">
+                    <div class="front">
+                        <img src="./images/spot/spot_6.png" alt="無法顯示">
+                    </div>
+                    <div class="back">
+                        <img src="./images/spot/spot_1_back.svg" alt="無法顯示">
+                    </div>
+                </div>
+            </li>
         </ul>
         <p>即使遍體麟傷，也跟為自己做一次決定</p>
     </div>
@@ -163,6 +228,15 @@
 
     </footer>
 
+    <script>
+        $("#card").flip();
+        $("#card1").flip();
+        $("#card2").flip();
+        $("#card3").flip();
+        $("#card4").flip();
+        $("#card5").flip();
+
+    </script>
 </body>
 
 
