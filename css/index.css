@@ -62,6 +62,8 @@ div.font_box {
     grid-template-rows: auto;
     /* border: 1px solid red; */
     margin-top: 100px;
+    min-width: 1000px;
+
 }
 
 .video-block__video video {
@@ -96,6 +98,7 @@ div.font_box {
     grid-template-rows: auto;
 
     margin-top: 100px;
+    min-width: 1000px;
 
 }
 
@@ -127,6 +130,9 @@ div.font_box {
     justify-content: space-evenly;
     list-style: none;
     margin-top: 50px;
+    padding: 0;
+    min-width: 1000px;
+
 }
 
 .how_to_use_container ul>li {
@@ -165,6 +171,7 @@ div.font_box {
 
 .how_can_get {
     /* border: 1px solid red; */
+    min-width: 1000px;
 
 }
 
@@ -201,21 +208,21 @@ div.font_box {
 }
 
 /*================================================================= 留言板================================================================================ */
+.note_left {
+    min-width: 1000px;
+}
+
 .note_picture_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     flex-wrap: wrap;
-    max-width: 800px;
+    width: 1000px;
     margin: auto;
     padding: 0;
     gap: 30px;
+    /* border: 1px solid red; */
 
-}
-
-.note_picture_container img {
-    width: 100%;
-    height: auto;
 }
 
 .note_left h1 {
@@ -235,6 +242,61 @@ div.font_box {
     margin-right: 10px;
 }
 
+/* =================================================================留言框組的效果=================================================================== */
+
+.note_picture_container__outside {
+    /* border: 1px solid red; */
+    position: relative;
+    border: 1px solid #919191;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.note_picture__photo img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.note_picture__text {
+    width: 70%;
+    height: 100%;
+    /* background-color: #919191; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: hsla(183, 43%, 69%, 1);
+
+    /* 讓字置中 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.note_picture__text:hover {
+    /* background-color: hsla(183, 43%, 69%, 0); */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.note_picture__text p {
+    /* border: 1px solid blue; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.note_picture__think {
+    color: #8ECFD2;
+    padding: 10px;
+}
+
+.note_picture__think p {
+    text-align: right;
+}
+
 /*=================================================================留下訊息 ================================================================================ */
 .note_your_message h1 {
     color: #8ECFD2;
@@ -245,7 +307,7 @@ div.font_box {
 
 .note_list {
     /* border: 1px solid red; */
-    width: 200px;
+    width: 350px;
     margin: 0 auto;
 
 }
@@ -263,7 +325,7 @@ input[type="text"] {
 
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 input[type="text"]::placeholder {
