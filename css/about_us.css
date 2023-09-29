@@ -10,6 +10,7 @@ ul.breadcrumb_title_list {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+    min-width: 1000px;
 }
 
 
@@ -41,6 +42,10 @@ ul.breadcrumb_title_list {
 }
 
 /* =================================================================關於獨旅======================================================================= */
+.about_us_box {
+    min-width: 1000px;
+}
+
 .about_us_box h1 {
     color: #8ECFD2;
     text-align: center;

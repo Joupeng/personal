@@ -13,6 +13,7 @@ ul.breadcrumb_title_list {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+    min-width: 1000px;
 }
 
 .breadcrumb_title_list li.hover_not {
@@ -45,7 +46,7 @@ ul.breadcrumb_title_list {
 .to-do_rule_step {
     color: #8ECFD2;
     text-align: center;
-    width: 1000px;
+    min-width: 1000px;
     margin: 0 auto;
 }
 
@@ -86,6 +87,10 @@ ul.breadcrumb_title_list {
 
 }
 
+.day_seletor {
+    min-width: 1000px;
+}
+
 /* 
 無法成功插入三角形
 #day_selector::after {
@@ -103,7 +108,7 @@ legend {
 }
 
 #myForm_create {
-    width: 1058px;
+    min-width: 1000px;
     margin: 0 auto;
 
 }

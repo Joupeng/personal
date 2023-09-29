@@ -12,6 +12,7 @@ ul.breadcrumb_title_list {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+    min-width: 1000px;
 }
 
 
@@ -48,6 +49,8 @@ ul.breadcrumb_title_list {
 }
 
 /* ================================================================會員登入表格====================================================================== -- */
+
+
 .left_register {
     /* border: 4px black; */
     width: 400px;
@@ -59,6 +62,7 @@ ul.breadcrumb_title_list {
     /* border: 1px solid orange; */
     display: flex;
     justify-content: center;
+    min-width: 1000px
 }
 
 .register_form {
