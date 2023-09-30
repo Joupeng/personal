@@ -72,6 +72,54 @@ ul.breadcrumb_title_list {
 
 }
 
+/* ============================================================最小寬設定 =======================================================*/
+
+.all_tabs_box {
+    min-width: 1000px;
+}
+
+#tabs ul.tabs_set {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+
+#tabs ul.tabs_set>li {
+    padding: 8px 25px;
+    font-size: 18px;
+
+}
+
+.ui-widget-content {
+    border: 1px solid #fff !important;
+    background: #ffffff;
+    color: #333333;
+}
+
+/* ui套件修改 */
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid#8ECFD2 !important;
+    background: #8ECFD2 !important;
+    font-weight: normal;
+    color: #ffffff !important;
+}
+
+.ui-widget-header {
+    border: none !important;
+    background: none !important;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
 /* ============================================================================圖片=============================================================== */
 .inner_box .image_outside {
     /* border: 1px solid red; */

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/common/all.css">
     <link rel="stylesheet" href="./css/common/header.css">
     <link rel="stylesheet" href="./css/common/footer.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <!-- GOOGLE FONT -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+HK:wght@900&family=Noto+Sans+TC:wght@300&display=swap"
@@ -132,8 +134,15 @@
         <p>心境選點，讓您可以透過選取喜歡的卡片來得到推薦景點，也可以透過店家直接選擇地點</p>
         <div class="card_introduce">
             <ul>
-
-                <li><img src="./images/index/card_big.png" alt="無法顯示" class="card_big">
+                <li>
+                    <div id="card">
+                        <div class="front">
+                            <img src="./images/index/card_big.png" alt="無法顯示" class="card_big">
+                        </div>
+                        <div class="back">
+                            <img src="./images/spot/spot_1_back.svg" alt="無法顯示" class="card_big">
+                        </div>
+                    </div>
                     <p>點選後會翻轉到另一面</p>
                 </li>
                 <li><img src="./images/index/card_normal.png" alt="無法顯示" class=card_normal></li>
@@ -288,6 +297,9 @@
         </div>
 
     </footer>
+    <script>
+        $("#card").flip();
+    </script>
 
 
 
