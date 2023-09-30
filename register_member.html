@@ -10,10 +10,21 @@
     <link rel="stylesheet" href="./css/common/footer.css">
     <link rel="stylesheet" href="./css/common/banner1.css">
     <link rel="stylesheet" href="./css/register_member.css">
+    <!-- tab功能 -->
+    <script src="./css/jquery-ui.theme.css"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
     <!-- GOOGLE FONT -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+HK:wght@900&family=Noto+Sans+TC:wght@300&display=swap"
         rel="stylesheet">
+    <script>
+        $(function () {
+            $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+            $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+        });
+    </script>
 </head>
 
 <body>
@@ -67,6 +78,76 @@
     <!-- ================================================各自分頁的開始======================================== -->
     <div class="main_container">
         <div class="inside_container">
+            <!-- <aside class="aside"> -->
+
+            <!-- <div class="personl_index_list"> -->
+            <div id="tabs">
+                <aside class="aside">
+                    <p class="main_title_1">個人首頁</p>
+                    <ul class="index_type">
+                        <li class="photo_box"><a href="#tabs-1">收藏照片</a></li>
+                        <li class="trip_love_box"><a href="#tabs-2">旅人收藏</a></li>
+                </aside>
+                </ul>
+
+
+
+                <div id="tabs-1">
+                    <main class="main">
+                        <ul class="content_box">
+                            <li>
+                                <div class="center_position">
+                                    <h3>餐廳</h3>
+                                    <p>Total:15張</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="center_position">
+                                    <h3>住宿</h3>
+                                    <p>Total:15張</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="center_position">
+                                    <h3>景點</h3>
+                                    <p>Total:15張</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="center_position">
+                                    <h3>交通</h3>
+                                    <p>Total:15張</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </main>
+                </div>
+                <!-- 為什麼一定要用main -->
+                <div id="tabs-2">
+                    <main class="main">
+                        <div class="diary_box">
+                            <div class="diary_box_text">
+                                <h4>2023/09/12</h4>
+                                <p>阿爾卑斯山(冬)</p>
+                            </div>
+                            <div class="diary_box_text">
+                                <h4>2023/09/12</h4>
+                                <p>阿爾卑斯山(冬)</p>
+                            </div>
+                            <div class="diary_box_text">
+                                <h4>2023/09/12</h4>
+                                <p>阿爾卑斯山(冬)</p>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============================================================原本的======================================================================================= -->
+    <!-- <div class="main_container">
+        <div class="inside_container">
             <aside class="aside">
                 <p class="main_title_1">個人首頁</p>
                 <div class="personl_index_list">
@@ -107,8 +188,8 @@
             </main>
         </div>
 
-    </div>
-    <!-- ------------------------------------------------footer---------------------------------------------------- -->
+    </div> -->
+
     <!-- ------------------------------------------------footer---------------------------------------------------- -->
     <footer class="box_footer_main">
         <ul class="main_list">
