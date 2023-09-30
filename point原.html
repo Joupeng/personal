@@ -5,44 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>推薦景點</title>
-    <style>
-        /* 沒有控制到 */
-        /* img {
-            width: 200px;
-        } */
-    </style>
     <link rel="stylesheet" href="./css/common/all.css">
     <link rel="stylesheet" href="./css/common/header.css">
     <link rel="stylesheet" href="./css/common/footer.css">
     <link rel="stylesheet" href="./css/common/banner2.css">
     <link rel="stylesheet" href="./css/point.css">
-    <link rel="stylesheet" href="./css/lightbox.css">
-
-
-
-    <!-- js燈箱+fadeto -->
     <script src="./js/jquery-3.7.1.js"></script>
-    <script src="./js/lightbox.js"></script>
-    <!-- js燈箱 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
     <!-- GOOGLE FONT -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+HK:wght@900&family=Noto+Sans+TC:wght@300&display=swap"
         rel="stylesheet">
     <script>
-        // fadeTo功能=====================================
         $(function () {
             $('.grid-item').css('opacity', 0.5).mouseover(function () {
                 $(this).fadeTo(500, 1)
                 $('.grid-item').not(this).fadeTo(500, 0.5)
             })
         })
-        // lightbox功能=========================================================
-        lightbox.options({
-            resizeDuration: 200,
-            wrapAround: true,
-            albumLabel: " %1 of %2"
-        })
+
     </script>
 
 
@@ -118,16 +98,7 @@
             <div class="linear_text">想要在山邊喝杯咖啡嗎<br>?或是在海邊看日落呢<br>?</div>
             <div class="contaniner_photo">
                 <div class="grid-container">
-                    <div class="grid-item">
-                        <a data-lightbox="images" href="./images/point/first_front.svg">
-                            <img src="./images/point/first.png">
-                        </a>
-                    </div>
-
-
-
-
-
+                    <div class="grid-item"></div>
                     <div class="grid-item"></div>
                     <div class="grid-item"></div>
                     <div class="grid-item"> </div>
