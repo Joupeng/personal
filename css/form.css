@@ -106,11 +106,18 @@ legend {
     /* font-family:  */
 }
 
-#myForm_create {
-    min-width: 1000px;
-    margin: 0 auto;
-    margin-top: 20px;
+.myForm_create_day1 h3,
+.myForm_create_day2 h3 {
+    color: #8ECFD2;
+}
 
+#myForm_create {
+    margin: 0 auto;
+    width: 900px;
+    border: 5px double #8ECFD2;
+    padding: 20px;
+    margin-top: 20px;
+    min-width: 1000px;
 }
 
 .trip_news,
@@ -162,7 +169,7 @@ legend {
 
 .day1_create_list textarea,
 .day2_create_list textarea {
-    width: 987px;
+    width: 700px;
     height: 170px;
 }
 

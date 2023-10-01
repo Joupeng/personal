@@ -141,6 +141,7 @@ ul.index_type li.trip_love_box::before {
     margin-top: 50px
 }
 
+/* ==================================================連結修改內容============================================ */
 #tabs-1 {
     justify-content: center;
     display: flex;
@@ -151,9 +152,9 @@ ul.index_type li.trip_love_box::before {
     text-decoration: none;
     /* border: 2px solid green; */
     color: #8ECFD2;
+    font-size: 24px;
 }
 
-ul.index_type li.photo_box::before {}
 
 #tabs-2 {
     justify-content: center;
@@ -161,8 +162,45 @@ ul.index_type li.photo_box::before {}
     flex-direction: row;
 }
 
+#tabs-3 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+a#ui-id-3.ui-tabs-anchor::before {
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/register_member/write_document.svg");
+    background-size: cover;
+    /* border: 1px solid red; */
+    vertical-align: bottom;
+    color: #8ECFD2;
+}
+
+.other_box {
+    display: flex;
+    gap: 20px;
+}
 
 
+.other_box_text img {
+    width: 100%;
+}
+
+a#ui-id-3.main_container {
+    width: 1000px;
+}
+
+/* #tab-3.other_box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+} */
+
+/* =================================================下方是之前內容======================================================= */
 main.main ul.content_box {
     /* border: 1px solid red; */
     list-style: none;
